@@ -586,7 +586,8 @@ body {
   transform: translateY(101%);
 }
 
-.card:hover .card-offers {
+.card:hover .card-offers,
+.card:focus .card-offers {
   transform: translateY(0);
 }
 
