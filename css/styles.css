@@ -798,18 +798,23 @@ img {
 
 }
 
-
-.btn-modal {
+.close-btn-modal {
   width: 30px;
   height: 30px;
   display: flex;
   position: absolute;
   justify-content: center;
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
   top: 8px;
   right: 8px;
   background-color: rgb(255, 255, 255);
+}
+
+.btn-modal {
+  width: 12px;
+  height: 12px;
+
 }
