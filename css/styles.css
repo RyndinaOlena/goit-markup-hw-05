@@ -791,6 +791,7 @@ img {
   right: 0;
   bottom: 0;
   margin: auto;
+  padding: 40px;
   position: absolute;
   transition-duration: 250ms;
   transition-property: scale;
@@ -813,8 +814,87 @@ img {
   background-color: rgb(255, 255, 255);
 }
 
+.close-btn-modal:hover,
+.close-btn-modal:focus {
+  fill: var(--secondary-color-text);
+}
+
 .btn-modal {
   width: 12px;
   height: 12px;
 
+}
+
+
+
+
+.form-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: center;
+  color: black;
+  letter-spacing: 0.03em;
+
+
+}
+
+.form {
+  font-size: 12px;
+  line-height: 1.5;
+  /* margin: 40px; */
+}
+
+.form-label {
+  display: block;
+  margin: 12px auto 4px;
+  color: rgba(117, 117, 117, 1);
+
+}
+
+.form-input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  outline: transparent;
+  padding-left: 42px;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+}
+
+.modal-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.modal-icon {
+  position: absolute;
+  left: 15px;
+  width: 18px;
+  height: 18px;
+  fill: rgba(33, 33, 33, 1);
+
+}
+
+#name {
+  padding-left: 42px;
+  margin: 0;
+}
+
+#comment {
+  padding-left: 16px;
+  padding-top: 14px;
+  resize: none;
+  width: 448px;
+  height: 120px;
+
+}
+
+.form-input:hover,
+.form-input:focus {
+  border: 1px solid var(--secondary-color-text);
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
