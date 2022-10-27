@@ -399,17 +399,32 @@
 
 
 
-
-
+            <form class="footer-form">
+                <div class="footer-form-filing">
+                    <p class="footer-input-item">Підпишіться на розсилку</p>
+                    <label class="footer-label" for="mail"></label>
+                    <input class="footer-input" type="email" name="mail" id="mail" placeholder="E-mail">
+                    <button class="footer-input-btn" type="submit"><span class="footer-input-text">Підписатися</span>
+                        <svg class="footer-icon-input">
+                            <use href="./images/sprite.svg#icon-icon-send" width="20" height="20">
+                            </use>
+                        </svg></button>
+                </div>
+            </form>
+        </div>
 
     </footer>
 
 
 
-
-
-
-
+    <div class="backdrop is-hidden" data-modal="">
+        <div class="modal">
+            <button class="close-btn-modal" data-modal-close>
+                <svg class="btn-modal" width="12" height="12">
+                    <use href="./images/sprite.svg#icon-close">
+                    </use>
+                </svg> </button>
+            <script src="./js/modal.js"></script>
 </body>
 
 </html>
